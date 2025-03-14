@@ -30,3 +30,13 @@ def calculator(a, b, operation):
             return "오류: 지원되지 않는 연산자입니다."
     except Exception as e:
         return f"오류 발생: {str(e)}"
+
+if __name__ == "__main__":
+    print(calculator(10, 5, '+'))  
+    print(calculator(10, 5, '-'))  
+    print(calculator(10, 5, '*'))  
+    print(calculator(10, 5, '/'))  
+    print(calculator(10, 0, '/'))  # 오류 메시지 출력 확인용
+    print(calculator(10, 5, '%'))  
+    print(calculator(10, 5, '**')) 
+    print(calculator(10, 5, '//')) # 오류 메시지 출력 확인용
