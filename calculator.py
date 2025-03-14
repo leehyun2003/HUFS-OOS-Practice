@@ -1,3 +1,6 @@
+
+# 이름: 김현빈 | 학번: 201901210 | 학과: Global Business & Technology 
+
 def calculator(a, b, operation):
     """
     간단한 계산기 함수
