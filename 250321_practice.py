@@ -2,4 +2,4 @@
 # 201901210
 # Global Business & Technology 학부
 
-# 나이없음
+# 나이 비밀
